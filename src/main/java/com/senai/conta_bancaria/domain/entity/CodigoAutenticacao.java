@@ -40,7 +40,7 @@ public class CodigoAutenticacao {
     @Column(length = 50)
     private String tipoOperacao;
     
-    @PrePersist
+    @PrePersist //executar um metodo antes de a entidade ser salva pela primeira vez no banco de dados.
     protected void onCreate() {
         criadoEm = LocalDateTime.now();
     }
