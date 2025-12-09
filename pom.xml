@@ -130,6 +130,12 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>com.rafaelcosta</groupId>
+			<artifactId>spring-mqttx</artifactId>
+			<version>0.0.1</version>                                 //não ta abaixando
+		</dependency>
+
 		<!-- Eclipse Paho MQTT Client -->
 		<dependency>
 			<groupId>org.eclipse.paho</groupId>
